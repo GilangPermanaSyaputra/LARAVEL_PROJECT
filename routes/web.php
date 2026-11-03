@@ -1,10 +1,10 @@
 <?php
-use App\Http\Controllers\mencoba;
+
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\mencoba;
 use App\Http\Controllers\Teams\TeamInvitationController;
 use App\Http\Middleware\EnsureTeamMembership;
 use Illuminate\Support\Facades\Route;
-use Laravel\Wayfinder\Route as WayfinderRoute;
 
 Route::inertia('/', 'Welcome')->name('home');
 
@@ -25,5 +25,5 @@ Route::get('/as', [mencoba::class, 'index']);
 
 Route::post('/woi/{id}', [mencoba::class, 'index'])->name('woi');
 Route::get('/pek', function () {
-    return "ASHDHSJDK";
+    return 'ASHDHSJDK';
 });
