@@ -160,5 +160,5 @@ Screenshots of the application will be added here.
 ---
 
 <p align="center">
-  Made with ❤️ using Laravel
+  I ❤️ SMK MUHI
 </p>
