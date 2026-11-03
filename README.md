@@ -8,7 +8,6 @@
   A Laravel-based project created to explore web development, understand MVC architecture, and practice building web applications.
 </p>
 
-
 ---
 
 ## 📌 About The Project
