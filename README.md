@@ -8,11 +8,6 @@
   A Laravel-based project created to explore web development, understand MVC architecture, and practice building web applications.
 </p>
 
-<p align="center">
-  ![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-  ![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
-  ![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
-</p>
 
 ---
 
