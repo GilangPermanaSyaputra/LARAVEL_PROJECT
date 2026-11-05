@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>
-        halo aku {{ $nama  }},kamu siapa?
+        halo aku {{ $nama  }},kamu siapa? umurku {{ $umur }} tahun
     </h1>
 </body>
 </html>

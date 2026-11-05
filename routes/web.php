@@ -23,7 +23,8 @@ require __DIR__.'/settings.php';
 
 Route::get('/as', [mencoba::class, 'index']);
 
-Route::post('/woi/{id}', [mencoba::class, 'index'])->name('woi');
+
+Route::get('/user', [mencoba::class, 'index']);
 Route::get('/pek', function () {
-    return 'ASHDHSJDK';
+    return "ASHDHSJDK";
 });

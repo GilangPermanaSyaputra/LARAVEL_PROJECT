@@ -8,8 +8,10 @@ class mencoba extends Controller
 {
     public function index(): View
     {
-        $nama = 'Gilang ganteng';
+        $nama = 'Gilang';
+$umur = 20;
 
-        return view('coba.nyoba', ['nama' => $nama]);
+        return view('coba.nyoba', ['nama' => $nama, 'umur' => $umur]);
     }
+ 
 }
