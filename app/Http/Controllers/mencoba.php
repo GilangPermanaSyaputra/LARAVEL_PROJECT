@@ -9,9 +9,11 @@ class mencoba extends Controller
     public function index(): View
     {
         $nama = 'Gilang';
-$umur = 20;
+        $umur = 20;
 
-        return view('coba.nyoba', ['nama' => $nama, 'umur' => $umur]);
+        return view('coba.nyoba', [
+            'nama' => $nama,
+            'umur' => $umur
+        ]);
     }
- 
 }
