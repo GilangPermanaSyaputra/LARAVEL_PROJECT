@@ -6,13 +6,13 @@ use Illuminate\Contracts\View\View;
 
 class mencoba extends Controller
 {
-    public function index(): View
+    public function index($woi): View
     {
-        $nama = 'Gilang';
+    
         $umur = 20;
 
         return view('coba.nyoba', [
-            'nama' => $nama,
+            'namq' => $woi,
             'umur' => $umur
         ]);
     }

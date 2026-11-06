@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<h1>halo aku gilanghhh</h1>
+<h1>belajar blade</h1>
+<a href="{{ route('josjis', ['woi' => 'Gilang']) }}">Buka halaman </a>
 </body>
 </html>
