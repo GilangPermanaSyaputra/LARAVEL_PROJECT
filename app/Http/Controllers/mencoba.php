@@ -8,12 +8,11 @@ class mencoba extends Controller
 {
     public function index($woi): View
     {
-    
         $umur = 20;
 
         return view('coba.nyoba', [
             'namq' => $woi,
-            'umur' => $umur
+            'umur' => $umur,
         ]);
     }
 }
