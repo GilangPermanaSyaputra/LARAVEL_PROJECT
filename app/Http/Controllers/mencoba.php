@@ -6,7 +6,7 @@ use Illuminate\Contracts\View\View;
 
 class mencoba extends Controller
 {
-    public function index($woi): View
+    public function index(string $woi): View
     {
         $umur = 20;
 
