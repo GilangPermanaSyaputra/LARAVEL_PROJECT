@@ -23,16 +23,14 @@ require __DIR__.'/settings.php';
 
 Route::get('/as', [mencoba::class, 'index']);
 
-
 Route::get('/user', [mencoba::class, 'index']);
+
 Route::get('/pek', function () {
-    return "ASHDHSJDK";
+    return 'ASHDHSJDK';
 });
 
-
 Route::get('/jaja/{woi}', function ($woi) {
-   
     return view('belajar');
 })->name('jaja');
 
-Route::get('/josjis/{woi}',[mencoba::class, 'index'])->name('josjis');
+Route::get('/josjis/{woi}', [mencoba::class, 'index'])->name('josjis');
