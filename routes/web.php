@@ -36,5 +36,5 @@ Route::get('/jaja/{woi}', function ($woi) {
 Route::get('/josjis/{woi}', [mencoba::class, 'index'])->name('josjis');
 
 Route::get('/routee/{aku?}', function ($aku = 'skibidi') {
-    return 'nama saya gilang dan saya suka ' . $aku;
+    return 'nama saya gilang dan saya suka '.$aku;
 });
