@@ -8,6 +8,11 @@
 <body>
     <h1>
         halo aku {{ $namq  }},kamu siapa? umurku {{ $umur }} tahun
+        @if ($umur >= 18)
+    <p>{{ $namq }} sudah dewasa.</p>
+@else
+    <p>{{ $namq }} masih di bawah umur.</p>
+@endif
     </h1>
 </body>
 </html>
